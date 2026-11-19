@@ -1004,9 +1004,7 @@
                   "id": "f8cc4477-653f-4e4a-a0cb-7b90f046fd7b"
                 }
               ],
-              "trustBoundaryIds": [
-                "6767506f-3d7f-4a5f-bbe2-ea03689d30fc"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Added to Queue\n"
@@ -1064,9 +1062,7 @@
                   "id": "2fcfb064-6a08-4771-9d9d-342639d63d7b"
                 }
               ],
-              "trustBoundaryIds": [
-                "6767506f-3d7f-4a5f-bbe2-ea03689d30fc"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               {
@@ -1153,9 +1149,7 @@
                   "id": "72b9712b-2c08-40b1-aea6-57604e82f5f4"
                 }
               ],
-              "trustBoundaryIds": [
-                "4a7911c8-2493-46cc-960f-1b248b176d15"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               {
@@ -1474,9 +1468,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "4a7911c8-2493-46cc-960f-1b248b176d15"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               {
@@ -1553,9 +1545,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "4a7911c8-2493-46cc-960f-1b248b176d15"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               {
@@ -1634,9 +1624,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "4a7911c8-2493-46cc-960f-1b248b176d15"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               {
@@ -1687,268 +1675,6 @@
               {
                 "x": 560,
                 "y": 400
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "attrs": {
-              "line": {
-                "targetMarker": "",
-                "sourceMarker": ""
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [
-                "c779a822-d4ec-4237-9191-fe7170b32956",
-                "552b5603-41c9-4458-83f2-01a6490a41b8"
-              ],
-              "containedElements": [
-                "ec574fb4-87e7-494b-88dc-2a3c99172067"
-              ]
-            },
-            "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Trust Boundary"
-                  },
-                  "labelText": {
-                    "text": "",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  },
-                  "text": {
-                    "text": ""
-                  }
-                },
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "id": "6767506f-3d7f-4a5f-bbe2-ea03689d30fc",
-            "source": {
-              "x": 350,
-              "y": 10
-            },
-            "target": {
-              "x": 810,
-              "y": 150
-            },
-            "vertices": [
-              {
-                "x": 333,
-                "y": 117
-              },
-              {
-                "x": 432,
-                "y": 180
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "attrs": {
-              "line": {
-                "targetMarker": "",
-                "sourceMarker": ""
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [
-                "1d981aac-90a7-464e-9491-3456bc6e593c",
-                "8a9007e8-ae66-4568-84c7-9bcbc1e2fdab",
-                "d071f844-374b-4957-8664-4f53ec0807cc",
-                "7efaaa0f-402c-4fc7-b9b8-449cfdb10026"
-              ],
-              "containedElements": [
-                "936557f9-22e2-4bac-bb70-0089c5c2fbe1"
-              ]
-            },
-            "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Trust Boundary"
-                  },
-                  "labelText": {
-                    "text": "",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  },
-                  "text": {
-                    "text": ""
-                  }
-                },
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "id": "4a7911c8-2493-46cc-960f-1b248b176d15",
-            "source": {
-              "x": 230,
-              "y": 520
-            },
-            "target": {
-              "x": 660,
-              "y": 510
-            },
-            "vertices": [
-              {
-                "x": 230,
-                "y": 420
-              },
-              {
-                "x": 320,
-                "y": 280
-              },
-              {
-                "x": 590,
-                "y": 250
-              },
-              {
-                "x": 660,
-                "y": 350
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "attrs": {
-              "line": {
-                "targetMarker": "",
-                "sourceMarker": ""
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Trust Boundary"
-                  },
-                  "labelText": {
-                    "text": "",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  },
-                  "text": {
-                    "text": ""
-                  }
-                },
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "id": "0adc088b-ebb1-46be-af7b-36112c60c419",
-            "source": {
-              "x": 40,
-              "y": 240
-            },
-            "target": {
-              "x": 290,
-              "y": 10
-            },
-            "vertices": [
-              {
-                "x": 276,
-                "y": 149
               }
             ]
           },
@@ -2060,7 +1786,7 @@
             },
             "attrs": {
               "text": {
-                "text": "A Demo Threat Model\nshowing an example web application,\nwith a queue-decoupled background process"
+                "text": ""
               }
             },
             "visible": true,
@@ -2069,7 +1795,7 @@
             "id": "4fee5fea-0c82-4ea5-a925-7c6d3257101e",
             "data": {
               "type": "tm.Text",
-              "name": "A Demo Threat Model\nshowing an example web application,\nwith a queue-decoupled background process",
+              "name": "",
               "hasOpenThreats": false
             }
           }
